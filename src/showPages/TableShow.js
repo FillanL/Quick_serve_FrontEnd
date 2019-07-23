@@ -6,11 +6,12 @@ class TableShow extends Component {
         return (
             <div className="dash-tables">
                 <h1> table number 1</h1>
-                <p>mennu item x</p>
-                <p>mennu item y</p>
-                <p>mennu item z</p>
+                <p>mennu item x  x4 $300</p>
+                <p>mennu item y x2 $10</p>
+                <p>mennu item z x1 $8 </p>
 
                 <p>total orders $100</p>
+                <button>Check Out</button>
             </div>
         )
     }
