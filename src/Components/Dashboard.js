@@ -10,6 +10,9 @@ import '../CSSFiles/dash.scss'
 
 
 export class Dashboard extends Component {
+
+
+
     render() {
         return (
             <div className="dash-interface">

@@ -5,15 +5,13 @@ import '../CSSFiles/menuitem.scss'
 class MenuItem extends Component {
 
     dragging=(e)=>{
-        e.preventDefault()
+        e.dataTransfer.setData("idd", this.props.num)
         console.log(this.props.num);
-        
-
     }
 
     render() {
         return (
-            <div className="menu-item" draggable onDrag={(e)=>this.dragging(e)}>
+            <div className="menu-item" draggable onDragStart={(e)=>this.dragging(e)}>
                 {/* <img src="" /> */}
                 
                 <p>name: Ale Beer </p>
